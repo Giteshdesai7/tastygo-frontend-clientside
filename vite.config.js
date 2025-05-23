@@ -31,6 +31,11 @@ export default defineConfig({
     allowedHosts: [
       '3727-2402-3a80-108a-4aca-7478-c0e3-af52-f38a.ngrok-free.app'
     ]
+  },
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+    sourcemap: false
   }
 })
 
