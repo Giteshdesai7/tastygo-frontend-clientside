@@ -1,0 +1,1 @@
+# tastygo-frontend-clientside
