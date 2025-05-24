@@ -8,7 +8,7 @@ export const StoreContext = createContext(null);
 
     const[cartItems, setCartItems] = useState({});
 
-    const url="https://tastygo-frontend-clientside.vercel.app/myorders";
+    const url="http://localhost:4000";
     const [token,setToken] = useState("");
     const [food_list, setFoodList] = useState([])
     const addToCart = async (itemId) => {
